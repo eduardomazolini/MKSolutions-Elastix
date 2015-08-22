@@ -12,8 +12,8 @@ apt-get install php5-pgsql
 curl https://raw.githubusercontent.com/eduardomazolini/MKSolutions-Elastix/master/cidlookup.php -o /var/www/cidlookup.php
 
 3. No asterisk crie a consulta a Base em: PBX -> PBX Configuration -> Inbound Call Control -> CallerID Lookup Sources.
-*Source Description: Constula MK </br>
-*Source type: HTML</br>
+*Source Description:* Constula MK </br>
+*Source type:* HTML</br>
 *Cache results:* **Opcional eu deixo marcado**</br>
 *Host:* **IP do seu servidor MK**</br>
 *Port:* 80</br>
